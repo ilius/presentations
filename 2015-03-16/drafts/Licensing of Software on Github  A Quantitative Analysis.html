@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://www.softwarefreedom.org/resources/2013/lcs-slides-aaronw/#/rm-chart -->
+<html lang="en" style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Licensing of Software on Github: A Quantitative Analysis</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.">
+    <meta name="author" content="Bartek Szopka">
+
+    <link href="./Licensing of Software on Github  A Quantitative Analysis_files/css" rel="stylesheet" type="text/css">
+    <link href="http://www.softwarefreedom.org/resources/2013/lcs-slides-aaronw/css/impress-demo.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="http://www.softwarefreedom.org/resources/2013/lcs-slides-aaronw/favicon.png">
+    <link rel="apple-touch-icon" href="http://www.softwarefreedom.org/resources/2013/lcs-slides-aaronw/apple-touch-icon.png">
+</head>
+
+<!--
+    
+    Body element is used by impress.js to set some useful class names, that will allow you to detect
+    the support and state of the presentation in CSS or other scripts.
+    
+    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
+    support features required by impress.js, so you should apply some fallback styles in your CSS.
+    It's not necessary to add it manually on this element. If the script detects that browser is not
+    good enough it will add this class, but keeping it in HTML means that users without JavaScript
+    will also get fallback styles.
+    
+    When impress.js script detects that browser supports all required features, this class name will
+    be removed.
+    
+    The class name on body element also depends on currently active presentation step. More details about
+    it can be found later, when `hint` element is being described.
+    
+-->
+<body class="impress-supported impress-enabled impress-on-rm-chart" style="height: 100%; overflow: hidden;">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<!--
+    
+    Now that's the core element used by impress.js.
+    
+    That's the wrapper for your presentation steps. In this element all the impress.js magic happens.
+    It doesn't have to be a `<div>`. Only `id` is important here as that's how the script find it.
+    
+    You probably won't need it now, but there are some configuration options that can be set on this element.
+    
+    To change the duration of the transition between slides use `data-transition-duration="2000"` giving it
+    a number of ms. It defaults to 1000 (1s).
+    
+    You can also control the perspective with `data-perspective="500"` giving it a number of pixels.
+    It defaults to 1000. You can set it to 0 if you don't want any 3D effects.
+    If you are willing to change this value make sure you understand how CSS perspective works:
+    https://developer.mozilla.org/en/CSS/perspective
+    
+    But as I said, you won't need it for now, so don't worry - there are some simple but interesing things
+    right around the corner of this tag ;)
+    
+-->
+<div id="impress" style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 500ms; -webkit-transition: all 1000ms ease-in-out 500ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(1000px) scale(1);"><div style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 0ms; -webkit-transition: all 1000ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-28800px, 0px, 0px);">
+
+
+    <div id="begin" class="step past" data-x="0" data-y="0" data-scale="1" style="position: absolute; transform: translate(-50%, -50%) translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+        <p id="title">Licensing of Software on Github:<br>A Quantitative Analysis</p>
+	<div id="attribution">
+	  <div id="name">
+            <p>Aaron Williamson</p>
+            <p>Senior Staff Counsel</p>
+            <p>Software Freedom Law Center</p>
+	  </div>
+	  <div id="sflc-logo"><img src="./Licensing of Software on Github  A Quantitative Analysis_files/frdm-small.png"></div>
+	</div>
+    </div>
+
+    <div id="redmonk-post" class="step past" data-x="1200" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(1200px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<blockquote class="twitter-tweet"><p>younger devs today are about POSS - Post open source software. fuck the license and governance, just commit to github.</p>— James Governor, Redmonk (@monkchips) <a href="https://twitter.com/monkchips/status/247584170967175169">September 17, 2012</a></blockquote>
+      </span>
+    </div>
+
+    <div id="redmonk-phipps" class="step past" data-x="2400" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(2400px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<blockquote class="twitter-tweet"><p>@<a href="https://twitter.com/monkchips">monkchips</a> ... and a whole new generation of lawyers thank them for it.</p>— Simon Phipps (@webmink) <a href="https://twitter.com/webmink/status/247685368558792705">September 17, 2012</a></blockquote><script async="" src="./Licensing of Software on Github  A Quantitative Analysis_files/widgets.js" charset="utf-8"></script>
+      </span>
+    </div>    
+
+    <div id="villa" class="step past" data-x="3600" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(3600px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<blockquote class="twitter-tweet"><p>What if 'post open source' is an implicit critique of that assumption – saying, in essence, 'I reject the permission culture'?</p>— Luis Villa<a href="http://tieguy.org/blog/2013/01/27/taking-post-open-source-seriously-as-a-statement-about-copyright-law/">January 28, 2013</a>
+      
+    </blockquote></span></div>   
+
+    <div id="why" class="step text-list past" data-x="4800" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(4800px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <h1>Why does it matter?</h1>
+      <h2>Guides our response</h2>
+      <ul>
+	<li>Education problem?<br>Developers may need to change.</li>
+	<li>A movement?<br>Lawyers may need to change.</li>
+      </ul>
+    </div> 
+
+    <div id="how" class="step text-list past" data-x="6000" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(6000px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <h1>How can we test this?</h1>
+      <h2>Follow the kids to Github</h2>
+      <ul>
+	<li>How many are applying licenses?</li>
+	<li>Which licenses do they prefer?</li>
+      </ul>
+    </div> 
+
+    <div id="methodology-1" class="step past" data-x="7200" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(7200px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<h1 style="font-size:200%;">Methodology</h1>
+      </span>
+    </div>   
+
+    <div id="methodology-2" class="step past" data-x="8400" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(8400px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<h1>DOWNLOAD ALL THE GITHUBS</h1>
+	<img style="width: 600px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/all-the-things.jpg">
+      </span>
+    </div>   
+
+    <div id="fossology" class="step past" data-x="9600" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(9600px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<img style="width:400px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/fossology.jpg">
+      </span>
+    </div> 
+
+    <div id="cleanup" class="step text-list past" data-x="10800" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(10800px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Preliminary clean-up</h1>
+	<ul>
+	  <li>GPLv2 and <span class="ex">GPL</span></li>
+	  <li><span class="ex">Artistic</span> and <span class="ex">GPL</span> (Perl)</li>
+	  <li>Etc.</li>
+	</ul>
+    </div>   
+
+    <div id="caveats-1" class="step past" data-x="12000" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(12000px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<h1 style="font-size:200%;">Caveats</h1>
+      </span>
+    </div>   
+
+    <div id="caveats-2" class="step text-list past" data-x="13200" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(13200px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Not all the Githubs, really</h1>
+	<ul>
+	  <li>1,692,135 / 6,000,000 repos (28%)</li>
+	  <li><i>Earliest</i> repos (till +/- 1 year ago)</li>
+	  <li>May skew results</li>
+	</ul>
+    </div>
+
+    <div id="caveats-3" class="step past" data-x="14400" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(14400px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <h1>Languages used on Github</h1>
+      <span class="ctrimg">
+	<img style="width:950px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/github-languages.png">
+      </span>
+    </div>   
+
+    <div id="caveats-4" class="step text-list past" data-x="15600" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(15600px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Guaranteed to overlook licenses...</h1>
+	<ul>
+	  <li>in code file headers</li>
+	  <li>below the top level directory</li>
+	  <li>in files with unexpected names</li>
+	</ul>
+    </div>
+
+    <div id="caveats-5" class="step text-list past" data-x="16800" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(16800px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>FOSSology results over-inclusive</h1>
+	<ul>
+	  <li>All licenses, not <i>the</i> license</li>
+	  <li>Irrelevant references (languages, "<i>not</i> GPL", etc.)</li>
+	  <li>Duplication I haven't identified</li>
+	</ul>
+    </div>
+
+    <div id="results-1" class="step past" data-x="18000" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(18000px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<h1>219,326</h1>
+	<h2>...out of 1,692,135 repositories (14.9%) have a top-level license file</h2>
+      </span>
+    </div>   
+
+    <div id="results-3" class="step past" data-x="19200" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(19200px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<h1>61,843</h1>
+	<h2>...only announce the license in the README file</h2>
+      </span>
+    </div>   
+
+    <div id="results-2" class="step past" data-x="20400" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(20400px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<h1>15</h1>
+	<h2>...most licenses found in one repo (gdb, binutils, newlib)</h2>
+      </span>
+    </div>   
+
+    <div id="chart-1" class="step past" data-x="21600" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(21600px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<img style="width:950px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/chart-top-12.png">
+      </span>
+    </div>  
+
+    <div id="chart-2" class="step past" data-x="22800" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(22800px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<img style="width:950px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/chart-perl-wtf.png">
+      </span>
+    </div>  
+
+    <div id="gitpan" class="step text-list past" data-x="24000" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(24000px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>What is gitPAN?</h1>
+	<p style="font-size:80%; margin-left: 1em;">gitPAN is a project to import the entire history of CPAN (known as BackPAN) into a set of git repositories, one per distribution.</p>
+	<h1>What is CPAN?</h1>
+<p style="font-size:80%; margin-left: 1em;">CPAN is the Comprehensive Perl Archive Network at cpan.org. It is an
+archive of tens of thousands of Perl modules written by thousands of
+authors. A good interface to it is http://search.cpan.org</p>
+      
+    </div>
+
+    <div id="chart-gp-adj" class="step past" data-x="25200" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(25200px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<img style="width:950px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/chart-gitpan-adjusted.png">
+      </span>
+    </div>
+
+    <div id="chart-breakdown" class="step past" data-x="26400" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(26400px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<img style="width:950px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/breakdown.png">
+      </span>
+    </div>
+
+    <div id="interp-1" class="step text-list past" data-x="27600" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(27600px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Interpreting the data</h1>
+	<ul>
+	  <li>Everything is overrepresented (especially permissive)</li>
+	  <li>But prevalence of permissive unsurprising</li>
+	</ul>
+    </div>
+
+    <div id="rm-chart" class="step active present" data-x="28800" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(28800px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<img style="width:700px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/redmonk-chart.png">
+      </span>
+    </div>
+
+    <div id="expl-1" class="step text-list future" data-x="30000" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(30000px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Explanations for the change</h1>
+	<ul>
+	  <li>Governor: developers want to avoid friction</li>
+	  <li>Villa: developers may be rejecting "permission culture"</li>
+	  <li>Reaction against GPL: freedom of developer over freedom of users</li>
+	  <li>Corporate influence/allergy to GPL</li>
+	</ul>
+    </div>
+
+    <div id="expl-2" class="step text-list future" data-x="31200" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(31200px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Licensing communities</h1>
+	<p>Coalesce around popular infrastructure and personalities</p>
+    </div>
+
+    <div id="expl-3" class="step future" data-x="32400" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(32400px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <h1>Languages used on Github</h1>
+      <span class="ctrimg">
+	<img style="width:950px;" src="./Licensing of Software on Github  A Quantitative Analysis_files/github-languages.png">
+      </span>
+    </div>   
+
+    <div id="rails-mit" class="step future" data-x="33600" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(33600px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="fsimg">
+	<img src="./Licensing of Software on Github  A Quantitative Analysis_files/rails-gpl.jpg">
+	<p class="caption">Rails licensing philosophy</p>
+      </span>
+    </div>
+
+    <div id="django-post" class="step future" data-x="34800" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(34800px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <span class="ctrimg">
+	<blockquote class="twitter-tweet"><p>GPL-licensing your Django code is like showing up to PyCon in a Ruby t-shirt. Nobody's gonna kick you out, but you'll get looks.</p>— Jacob Kaplan-Moss (@jacobian) <a href="https://twitter.com/jacobian/status/294157273721339905">January 23, 2013</a></blockquote>
+<script async="" src="./Licensing of Software on Github  A Quantitative Analysis_files/widgets.js" charset="utf-8"></script>
+      </span>
+    </div>
+
+    <div id="jquery-history" class="step text-list future" data-x="36000" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(36000px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>jQuery licensing history</h1>
+	<ul>
+	  <li>Creative Commons ShareAlike</li>
+	  <li>MIT (2006)</li>
+	  <li>GPL/MIT (later 2006)</li>
+	  <li>MIT (2012)</li>
+	</ul>
+    </div>
+
+    <div id="jquery-history-2" style="width: 100%; position: absolute; transform: translate(-50%, -50%) translate3d(37200px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;" class="step text-list future" data-x="37200" data-y="0" data-z="0" data-scale="1" data-rotate="0">
+	<h1>10 random(ish) jQuery plugins on Github</h1>
+	<ul style="width:100%; font-size:70%;">
+	  <li><b>7</b> have no top-level license</li>
+	  <li><b>4</b> have no license at all</li>
+	  <li><b>3</b> MIT</li>
+	  <li><b>1</b> GPL/MIT dual license</li>
+	  <li><b>1</b> Just the warranty disclaimer from MIT</li>
+	  <li><b>1</b> "Licensed under GPL
+	  (http://www.opensource.org/licenses/gpl-2.0.php) Use only
+	  for non-commercial usage."</li>
+	  <li><b>0</b> non-MIT or -GPL variations</li>
+	</ul>
+    </div>
+
+    <div id="jquery-history-3" class="step text-list future" data-x="38400" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(38400px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Go home, jQuery, you're drunk</h1>
+	<h2>Why does the jQuery community have these issues?</h2>
+	<ul>
+	  <li>Developers' background</li>
+	  <li>Historical Javascript reuse/sharing patterns</li>
+	  <li>Bytecount obsession</li>
+	</ul>
+    </div>
+
+    <div id="ruby-follow" class="step text-list future" data-x="39600" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(39600px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Ruby license variants</h1>
+	<ul style="width:100%; font-size:50%;">
+<li>XXX is free software. You can redistribute it and/or modify it under
+  either the terms of the 2-clause BSDL or the Ruby licence.</li>
+<li><b>XXX is free software by NNN. You can redistribute it and/or modify
+  it under either the terms of the GPL (see COPYING.txt file), or the
+  conditions below: [Ruby license]</b></li>
+<li>Available under the Ruby License.</li>
+<li>This program is free software. You can re-distribute and/or modify
+  this program under the same terms as Ruby itself.</li>
+<li><b>XXX is copyrighted free software by all contributors, see logs in
+  revision control for names and email addresses of all of them. You
+  can redistribute it and/or modify it under either the terms of the
+  {GPL2}[http://www.gnu.org/licenses/gpl-2.0.txt] (see link:COPYING)
+  or the conditions below: [Ruby license]</b></li>
+<li><b>XXX is copyrighted free software by XXX.  You can redistribute it
+  and/or modify it under either the terms of the 2-clause BSDL, or the
+  conditions below: [Ruby license]</b></li>
+<li>The code in [path] is Copyright 2001 by NNN, and distributed under
+  the terms of the Ruby license. See http://www.ruby-lang.org/en/LICENSE.txt</li>
+<li>MIT (see the LICENSE file for details) [LICENSE contains Ruby/GPL dual license]</li>
+	</ul>
+    </div>
+
+    <div id="gpl-flight" class="step text-list future" data-x="40800" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(40800px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+	<h1>Flight from GPL?</h1>
+	<ul>
+	  <li>Early Open Source community was the Linux community</li>
+	  <li>Licensing community around Linux &amp; Linus</li>
+	  <li>Web becoming equally significant platform for open source development</li>
+	  <li>Linus' value as booster flagged with GPLv3</li>
+	</ul>
+    </div>
+
+    <div id="thanks" class="step future" data-x="42000" data-y="0" data-z="0" data-scale="1" data-rotate="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(42000px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+      <h1>Thanks!</h1>
+    </div>
+
+</div></div>
+
+<!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+-->
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="./Licensing of Software on Github  A Quantitative Analysis_files/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+
+
+
+<!--
+    
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+    
+    Oh, you've already cloned the code from GitHub?
+    
+    You have it open in text editor?
+    
+    Stop right there!
+    
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+    
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+    
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+    
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+    
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    creating awesome and engaging presentations.
+    
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+    
+-->
+
+<!--
+    
+    Are you still reading this?
+    
+    For real?
+    
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+    
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+    
+    Cheers!
+    
+-->
+
+</body></html>

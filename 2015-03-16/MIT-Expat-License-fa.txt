@@ -1,0 +1,31 @@
+
+حق‌التالیف (C) سال ۱۹۹۸، ۱۹۹۹، ۲۰۰۰ توسط مرکز متن‌باز تایلندی
+
+به این وسیله، به هر شخصی که به یک نسخه از این نرم‌افزار یا مستنداتش دست یابد، اجازه داده می‌شود که بدون محدودیت این نرم‌افزار را بکار ببرد، بدون هیچ محدودیتی در استفاده، کپی، تغییر، ادغام(ترکیب)، نشر، توزیع، sublicense و/یا فروش نسخه‌هایی از این نرم‌افزار، و نیز دادن اجازه انجام این کارها به اشخاص دیگری که این نرم‌افزار به دست آنها رسیده است، به شرطی که:
+
+اعلان حق‌التالیف فوق، و این اعلان اجازه دادن، در تمام خسته‌های نرم‌افزار به قطعه‌های قابل توجه آن، قرار گیرد
+
+این برنامه «همانطور که هست» ارائه شده است، بدون هیچ گونه ضمانتی، چه بطور صریح و چه ضمنی، از جمله (اما نه فقط) ضمانت غیرصریح تجاری بودن کار، مناسب بودن برای یک مقصود خاص و عدم تخلف. مولفین و صاحبان حق‌التالیف هرگز پاسخگوی هیچ گونه مدعا، آسیب یا هیچ مسئولیت دیگری نخواهند بود، چه در عمل قرارداد یا خسارت چه در غیر آن، که از این نرم‌افزار ناشی شده و یا به آن مربوط شود
+
+
+
+Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd
+ 
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

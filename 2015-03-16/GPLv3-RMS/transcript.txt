@@ -1,0 +1,50 @@
+RMS announces release of GPLv3
+by josh — last modified 2007-08-14 16:56 Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved.
+
+Transcript of Richard M. Stallman announcing the release of GPLv3 on June 29, 2007
+
+A video of this talk can be found at http://gplv3.fsf.org.
+
+
+I'm very happy to say that we are actually releasing GPL version 3. Today. Right now, I believe. During this speech it's becoming official and people can start to release software under GPL version 3. It has been, essentially, sixteen years since GPL version 2 came out. We didn't think it would be this long before we made the next version, and we'll try to attend to future upgrade needs more quickly. We won't wait more than a decade, this time.
+
+But what's so important about GPL version 3? Well, first of all, what's the GPL for? What's its purpose? I designed the GNU General Public License for a very simple purpose: to defend the freedom of every user of a free program. Not all free programs do this. There are free programs released under other licenses that are lax and permissive, that allow modified versions to be made non-free. Some even allow just compiling as enough excuse to make it non-free. But what happens then? The software may be very popular, it may be powerful and reliable, but it fails to deliver freedom to the users.
+
+So the GNU General Public License is designed to make sure that everyone that gets the software also gets the essential freedoms that the user of software must have.
+
+These are
+
+Freedom 0. The freedom to run the program as you wish.
+
+Freedom 1. The freedom to study the source code and change it so it does what you wish.
+
+Freedom 2. The freedom to help your neighbor, which is the freedom to distribute exact copies up to and including republication when you wish, and . . .
+
+Freedom 3, which is the freedom to contribute to your community, the freedom to distribute copies of your modified versions up to and including publication, when you wish.
+
+These are the freedoms necessary so we can control our own computing and be good, helpful members of our communities. And together, they give us democratic control over what our software does.
+
+Only with a license like the GNU GPL do the users have these four freedoms. But, the adversaries of freedom don't stand still, they've thought of new ways to separate users from their freedom since GPL version 2 came out. So, we have had to find ways to block them from doing this in order to make sure the GPL continues to achieve what has always been told.
+
+For instance, there's a practice we call tivoization after the product which began it. The Tivo contains software released under GPL version 2, and they comply formally with the requirements of GPL version 2. But, it doesn't do the user of the Tivo any good. Yes, the user can get the source code of that software, but if the user tries to change it and compile it and install it in the Tivo it won't run. It is guaranteed not to run. And that's no accident. The Tivo contains special circuitry to check the signature of the program and if it has been modified at all, then it shuts down. Now why would they do a thing like this? The reason is not innocent. The reason is, because the Tivo is designed to restrict the user and to spy on the user. Nasty malicious features. And they want to make sure the user can't get rid of these nasty features in the most natural way, the way that users are supposed to be able to do it with free software. They have put in this special circuitry to make sure people can't run modified versions of the software.
+
+So, GPL version 3 blocks this practice. It says that if you distribute binaries in a product to consumers, that you've got to provide them with whatever information is sufficient so that they can install and run their modified versions in the products they bought.
+
+There's another variation on tivoization, which is, Treacherous Computing. That's where the computer is designed so that a web site you are trying to talk to can tell whether you are running the officially approved software or your own modified version. And if you are running your own modified version then it says, "they don't trust you," so you are not allowed to talk to the site. Well, with GPL version 3 that's not allowed either. They have to provide you with information sufficient to install your modified versions, so that they can function just as the original version would have done, unless your changes make it do something else. They're not allowed to distribute it in such a way that the mere fact that you modified it prevents it from functioning the way the original would have. So we've blocked both variants of this way of turning freedom number one—the freedom to study and change the source code and make the source code do what you wish—into a sham.
+
+Another threat to our freedom comes from software patents. I'm sure you've heard about the Novell–Microsoft deal, which was dangerous, because, effectively, Novell is going to pay Microsoft to give customers protection from some of Microsoft's patents. Well, if Microsoft, or anyone, can make users pay for the privilege of running free software, that takes away from freedom zero: the freedom to run the program as you wish. We can't sit idly by and let that happen.
+
+Now, GPL version 2 had a change in it from GPL version 1 to protect us against use of software patents to make the program effectively non-free. But, it only applies when the distributor gets a patent license. Well in the Novell–Microsoft deal, they were clever, and Microsoft didn't give Novell a patent license. So, they slipped through this crack in GPL version 2. Well, in GPL version 3, we don't have this crack anymore—such deals are not allowed.
+
+However, instead of simply saying that Novell can't distribute GPL version 3 covered programs under their deal, we found a cleverer thing to do with it. When Microsoft updates to versions that are covered by GPL version 3, GPL version 3 will extend this patent protection from the customers of Novell to everybody who uses those programs. Effectively, we found a way to turn that deal against Microsoft and make it backfire. So, it's extremely important for free software to upgrade the license to GPL version 3. So that, Novell, in the course of time, will put in the new versions, and thus our community will get this benefit. It has to be done fairly soon, because if we wait too long, Microsoft may distribute all its coupons and then we won't be able to turn the deal against them anymore. So, get your programs relicensed soon, it's very important. We expect all the maintainers of GNU software to relicense in the next few months—it's important. But, other free software developers should also relicense.
+
+There will be people who will ask you not to do so. A minority of our community seems to be very angry about GPL version 3. And, when we try to probe to find out their motives, it usually turns out that they disagree with the goal of the GNU GPL, the goal of guaranteeing freedom for every user. Please, when people who hold those views ask you to leave users' freedom vulnerable, don't listen to them. Defend the user's freedom, that's important. And even if they are people who ask us not to do it, we've got to do it. We have to defend the user's freedom against these threats.
+
+There are, of course, many other advantages of GPL version 3. Compatibility with the Apache license is one. Better internationalization is another. You'll also find that its termination conditions work much better in the case of a distributor of an entire GNU + Linux distribution who makes a mistake, and thus violates the GPL for thousands of programs at once. And, of course, wants to correct it. With GPL version 2, that person who made a mistake, loses the license permanently for every program from every copyright holder, and has to then go and beg forgiveness from everyone, which is not feasible. But, with GPL version 3, if they correct the mistake and the copyright holders don't complain in 60 days, then they're in the clear. So they'll only have to negotiate with those who actually did complain. Assuming of course that they are sincere people and they correct the mistake. We are still in a good position to enforce the license against anyone who intends to violate it and doesn't correct the mistake.
+
+So, GPL version 3 will help our community in many ways, and I urge people to upgrade to it. Thank you.
+
+Who is going to speak next?
+
+Well, I'll fill this pause by drinking some tea.
+

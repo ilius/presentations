@@ -1,0 +1,102 @@
+
+زمان(0:20)
+-الآن می‌توانم شروع کنم؟
+زمان(0:2)
+-بله، شروع کن.
+-بسیار خب. فکر می‌کنم اولین باری باشد که دارم کنفرانس می‌دهم.
+
+I'm very happy to say that we are actually releasing GPL version 3. Today. Right now, I believe. During this speech it's becoming official and people can start to release software under GPL version 3. It has been, essentially, sixteen years since GPL version 2 came out. We didn't think it would be this long before we made the next version, and we'll try to attend to future upgrade needs more quickly. We won't wait more than a decade, this time.
+
+زمان(0:26)
+من بسیار خوشحالم از این که می‌گویم ما واقعاً در حال انتشار نسخهٔ سوم مجوز GPL هستیم. امروز. به اعتقاد من همین الآن. با این کنفرانس آن(GPLv3) رسمی خواهد شد و مردم می‌توانند شروع به انتشار نرم‌افزار تحت GPL نسخهٔ ۳ کنند. واقعاً ۱۶ سال از انتشار GPL نسخهٔ ۲ می‌گذرد. ما فکر نمی‌کردیم که تا انتشار نسخهٔ بعدی این مجوز، اینقدر طول بکشد، و من در آینده توجه خواهم کرد که به‌روزرسانی باید سریعتر باشد. از این به بعد، بیشتر از یک دهه منتظر نخواهیم شد.
+
+
+But what's so important about GPL version 3? Well, first of all, what's the GPL for? What's its purpose? I designed the GNU General Public License for a very simple purpose: to defend the freedom of every user of a free program. Not all free programs do this. There are free programs released under other licenses that are lax and permissive, that allow modified versions to be made non-free. Some even allow just compiling as enough excuse to make it non-free. But what happens then? The software may be very popular, it may be powerful and reliable, but it fails to deliver freedom to the users.
+
+زمان(1:12)
+اما چه چیزی است که دربارهٔ GPL نسخهٔ ۳ بسیار مهم است؟ خب، اول از همه GPL برای چیست؟ هدف آن چیست؟ من مجوز همگانی عمومی گنو (GNU GPL) را برای هدف بسیار ساده‌ای طراحی کردم: تا از آزادی هر کاربر یک برنامهٔ آزاد دفاع کنم. همهٔ برنامه‌های آزاد این کار را انجام نمی‌دهند. بعضی برنامه‌های آزاد تحت مجوزهای دیگری منتشر شده‌اند که سهل‌انگار و سست هستند، که اجازه می‌دهند نسخهٔ تغییریافتهٔ برنامه، غیرآزاد باشد. حتی بعضی از آنها اجازه می‌دهند که تنها با کامپایل برنامه، بشود آن را غیرآزاد کرد. اما بعد از آن چه اتفاقی می‌افتد؟ این نرم‌افزار ممکن است بسیار محبوب باشد، ممکن است بسیار قدرتمند و قابل‌اطمینان باشد. اما عاجر می‌ماند از اینکه آزادی را برای کاربران به ارمغان آورد.
+
+So the GNU General Public License is designed to make sure that everyone that gets the software also gets the essential freedoms that the user of software must have.
+These are
+Freedom 0. The freedom to run the program as you wish.
+Freedom 1. The freedom to study the source code and change it so it does what you wish.
+Freedom 2. The freedom to help your neighbor, which is the freedom to distribute exact copies up to and including republication when you wish, and . . .
+Freedom 3, which is the freedom to contribute to your community, the freedom to distribute copies of your modified versions up to and including publication, when you wish.
+
+زمان(2:03)
+بنابراین مجوز همگانی عمومی گنو (GNU GPL) طراحی شده است تا مطمئن باشیم هر کس که نرم‌افزار را می‌گیرد، تمام آزادی‌هایی که کاربر باید داشته باشید را هم به همراه نرم‌افزار می‌گیرد.
+این آزادی‌ها عبارتند از:
+
+آزادی صفر: آزادی برای اجرای برنامه، هر طور که خودتان بخواهید.
+آزادی یک: آزادی برای مطالعهٔ کد منبع برنامه و تغییر آن، تا آنچه را که شما می‌خواهید انجام دهد.
+آزادی دو: آزادی برای کمک به همسایه(اطرافیان) خود، یعنی آزادی برای توزیع کپی‌های دقیق(بدون تغییر) و یا انتشار مجدد آن، هر زمان که خودتان بخواهید. و...
+آزادی سه: که آزادی برای کمک به(همکاری با) جامعهٔ خود است، آزادی برای توزیع کپی‌هایی از نسخه‌های تغییریافتهٔ خودتان، و یا انتشار مجدد آن، هر زمان که خودتان بخواهید.
+
+These are the freedoms necessary so we can control our own computing and be good, helpful members of our communities. And together, they give us democratic control over what our software does.
+
+زمان(2:50)
+اینها آزادی‌های لازم هستند تا ما بتوانیم محاسبات(کارهای کامپیوتری) خودمان را کنترل کنیم و اعضای خوب و مفیدی در جوامع خود باشیم. همچنین آنها به ما یک کنترل دموکراتیک می‌دهند بر آنچه که نرم‌افزار ما انجام می‌دهد.
+
+
+Only with a license like the GNU GPL do the users have these four freedoms. But, the adversaries of freedom don't stand still, they've thought of new ways to separate users from their freedom since GPL version 2 came out. So, we have had to find ways to block them from doing this in order to make sure the GPL continues to achieve what has always been told.
+زمان(3:09)
+تنها با مجوزی مثل GNU GPL است که کاربران این چهار آزادی را دارند. اما دشمنان آزادی هم آرام نمی‌نشینند. از زمان بیرون آمدن نسخه ۲ مجوز GPL ، آنها به راههای جدیدی فکر می‌کنند که کاربران را از آزادی‌هایشان جدا کنند. بنابراین ما ناچاریم راههایی را بیابیم تا از این کار آنها جلوگیری کنیم. تا مطمئن شویم GPL آنچه را که همیشه می‌گفتیم(می‌خواستیم) همچنان انجام می‌دهد.
+
+
+For instance, there's a practice we call tivoization after the product which began it. The Tivo contains software released under GPL version 2, and they comply formally with the requirements of GPL version 2. But, it doesn't do the user of the Tivo any good. Yes, the user can get the source code of that software, but if the user tries to change it and compile it and install it in the Tivo it won't run. It is guaranteed not to run. And that's no accident. The Tivo contains special circuitry to check the signature of the program and if it has been modified at all, then it shuts down. Now why would they do a thing like this? The reason is not innocent. The reason is, because the Tivo is designed to restrict the user and to spy on the user. Nasty malicious features. And they want to make sure the user can't get rid of these nasty features in the most natural way, the way that users are supposed to be able to do it with free software. They have put in this special circuitry to make sure people can't run modified versions of the software.
+
+زمان(3:43)
+به عنوان مثال، روشی وجود دارد که ما به آن می‌گوییم Tivo کردن محصول بعد از شروع آن. Tivo ( تیوُ ) شامل نرم‌افزاری است که تحت GPL نسخهٔ ۲ منتشر شده، و آنها رسماً نیازمندی‌های GPL نسخهٔ ۲ را برآورده می‌کنند. اما به هیچ وجه عمکرد خوبی در مقابل کاربر ندارد. بله، کاربر می‌تواند کد منبع نرم‌افزار را بگیرد، اما اگر سعی کند که آن را تغییر دهد، و کامپایل کند و در Tivo نصب کند، آن اجرا نخواهد شد! آن تضمین شده که اجرا نشود! و هیچ اتفاقی نمی‌افتد. Tivo شامل حلقه‌هایی است که که امضای برنامه را بررسی کند، و اگر امضا به هر وجهی تغییر کرده باشد، برنامه بسته خواهد شد. حالا چرا آنها می‌خواهند چنین کاری انجام دهند؟ دلیل آن بدون مقصر نیست. دلیلش اینست، چون Tivo طراحی شده تا کاربر را محدود کند، و تا جاسوسی کاربر را کند. ویژگی‌هایی زشت و بدخواهانه. و آنها می‌خواهند تا مطمئن شوند که کاربر نمی‌تواند از این ویژگی‌های زشت برنامه، به طبیعی‌ترین روش رها شود. روشی که کاربران فکر می‌کنند می‌توانند آن را در مورد نرم‌افزار آزاد انجام دهند. آنها(سازندگان نرم‌افزار) این حلقهٔ خاص را گذاشته‌اند تا مطمئن شوند که مردم نمی‌توانند نسخه‌هایی از نرم‌افزار را تغییر دهند.
+
+So, GPL version 3 blocks this practice. It says that if you distribute binaries in a product to consumers, that you've got to provide them with whatever information is sufficient so that they can install and run their modified versions in the products they bought.
+
+زمان(5:07)
+از اینرو GPL نسخهٔ ۳ از این عمل جلوگیری می‌کند. آن می‌گوید که اگر شما نسخه‌های باینری را بصورت یک محصول بین مصرف‌کنندگان منتشر کنید، شما باید اطلاعات کافی را به آنها(مصرف‌کنندگان) بدهید طوریکه بتوانند نسخه‌های تغییریافته‌شان از محصول خریده شده را نصب و اجرا کنند.
+
+There's another variation on tivoization, which is, Treacherous Computing. That's where the computer is designed so that a web site you are trying to talk to can tell whether you are running the officially approved software or your own modified version. And if you are running your own modified version then it says, "they don't trust you," so you are not allowed to talk to the site. Well, with GPL version 3 that's not allowed either. They have to provide you with information sufficient to install your modified versions, so that they can function just as the original version would have done, unless your changes make it do something else. They're not allowed to distribute it in such a way that the mere fact that you modified it prevents it from functioning the way the original would have. So we've blocked both variants of this way of turning freedom number one—the freedom to study and change the source code and make the source code do what you wish—into a sham.
+
+زمان(5:34)
+گونهٔ دیگری از Tivo کردن هم وجود دارد، که آن «پردازش خیانت‌آمیز» است! آن جایی است که طوری به کامپیوتر برنامه داده شده تا به وب‌سایتی که با آن ارتباط برقرار می‌کنید بگوید که شما نسخهٔ رسمی(مصوب) نرم‌افزار را اجرا می‌کنید یا نسخهٔ تغییریافتهٔ خودتان را. و اگر شما در حال اجرای نسخهٔ تغییریافتهٔ خودتان باشید، آن خواهد گفت که «آنها به شما اعتماد نمی‌کنند»، پس شما اجازهٔ برقراری ارتباط با سایت را ندارید. خب، با GPL نسخهٔ ۳ هیچ یک از این دو (روش Tivo کردن) اجازه داده نشده است. آنها باید اطلاعات کافی را به شما بدهند تا نسخه‌های تغییریافته را نصب کنید، طوریکه بتوانند دقیقاً همانطور که از نسخه‌های اصلی انتظار می‌رود، کار کنند، بدون اینکه تغییرات شما باعث شود که آن کار دیگری انجام دهد. آنها اجازه ندارند آن را به طریقی منتشر کنند که صرفاً تغییر دادن آن توسط شما، مانع از عملکرد آن شود، عمکردی که نسخهٔ اصلی[تغییر نیافتهٔ] آن خواهد داشت. پس ما جلوگیری کرده‌ایم از هر دو نوع این روش که عملاً آزادی شمارهٔ یک را از بین می‌برند: آزادی برای مطالعهٔ و تغییر کد منبع بطوریکه آن کاری را انجام دهد که شما می‌خواهید.
+
+
+Another threat to our freedom comes from software patents. I'm sure you've heard about the Novell–Microsoft deal, which was dangerous, because, effectively, Novell is going to pay Microsoft to give customers protection from some of Microsoft's patents. Well, if Microsoft, or anyone, can make users pay for the privilege of running free software, that takes away from freedom zero: the freedom to run the program as you wish. We can't sit idly by and let that happen.
+
+زمان(6:49)
+تهدید دیگری که برای آزادی ما وجود دارد، از «حق‌امتیازهای نرم‌افزاری» ناشی می‌شود. من مطمئنم که شما چیزهایی دربارهٔ قرارداد بین ناول و مایکروسافت شنیده‌اید، قرارداد‌ای که خطرناک بود، چون عملاً ناول بهایی را به مایکروسافت می‌پردازد تا مشتری‌هایش را از بعضی حق‌امتیازهای مایکروسافت حفظ کند. خب، اگر مایکروسافت یا هر کس دیگری بتواند کاربران را برای داشتن حق اجرای نرم‌افزار آزاد، وادار به پرداخت بهایی کند، این آزادی صفر را کنار می‌زند: آزادی برای اجرای برنامه همانطور که خودتان بخواهید. ما نمی‌توانیم بیکار بنشینیم و اجازه بدهیم این اتفاق بیفتد.
+
+Now, GPL version 2 had a change in it from GPL version 1 to protect us against use of software patents to make the program effectively non-free. But, it only applies when the distributor gets a patent license. Well in the Novell–Microsoft deal, they were clever, and Microsoft didn't give Novell a patent license. So, they slipped through this crack in GPL version 2. Well, in GPL version 3, we don't have this crack anymore—such deals are not allowed.
+
+زمان(7:33)
+حالا، GPL نسخهٔ ۲ تغییری نسبت به نسخهٔ ۱ داشته تا ما را محفاظت کند در مقابل اینکه از حق‌امتیازهای نرم‌افزاری برای عملاً غیرآزاد ساختن برنامه استفاده شود. اما این فقط وقتی بکار می‌آید که خود توزیع‌کننده مجوز یک حق‌امتیاز را بدست آورد. خب در قرارداد ناول و مایکروسافت، انها زیرک بودند، و مایکروسافت مجوز یک حق‌امتیاز را به ناول نداد. پس آنها از شکافی(نقصی) که در GPL نسخهٔ ۲ بود سوءاستفاده کردند. خب، در GPL نسخهٔ ۳ دیگر چنین شکافی(نقصی) نداریم، [پس] چنین قراردادهایی اجازه داده نشده است.
+
+However, instead of simply saying that Novell can't distribute GPL version 3 covered programs under their deal, we found a cleverer thing to do with it. When Microsoft updates to versions that are covered by GPL version 3, GPL version 3 will extend this patent protection from the customers of Novell to everybody who uses those programs. Effectively, we found a way to turn that deal against Microsoft and make it backfire. So, it's extremely important for free software to upgrade the license to GPL version 3. So that, Novell, in the course of time, will put in the new versions, and thus our community will get this benefit. It has to be done fairly soon, because if we wait too long, Microsoft may distribute all its coupons and then we won't be able to turn the deal against them anymore. So, get your programs relicensed soon, it's very important. We expect all the maintainers of GNU software to relicense in the next few months—it's important. But, other free software developers should also relicense.
+
+زمان(8:16)
+به هر حال، بجای اینکه به سادگی بگوییم ناول نمی‌تواند تحت قراردادشان برنامه‌هایی با مجوز GPL نسخهٔ ۳ منتشر کند، ما راه زیرکانه‌تری یافتیم. وقتی مایکروسافت [نرم‌افزارهای تحت GPL نسخهٔ ۲ که مورد قرارداد هستند را] به GPL نسخهٔ ۳ به‌روزرسانی می‌کند، GPL نسخهٔ ۳ این حفاظت مشتری‌های ناول از حق‌امتیاز ماکروسافت را توسعه(تعمیم) می‌دهد به هر کسی که برنامه‌های آنها را استفاده کند. در نتیجه ما راهی را پیدا کردیم که از آن قرارداد بر علیه مایکروسافت استفاده کنیم و باعث شویم که [آن قرارداد] نتیجهٔ معکوس داشته باشد. پس برای نرم‌افزار آزاد بسیار مهم است که مجوزش به GPL نسخهٔ ۳ به‌روزرسانی شود. از آنجا که ناول به مرور زمان سر و کارش با نسخه‌های جدید نرم‌افزارها خواهد بود، در نتیجه اجتماع ما از این فایده بهره‌مند خواهد شد. این [به‌روزرسانی مجوز برنامه‌ها] باید بسیار زود انجام بگیرد، چون اگر ما خیلی زیاد منتظر شویم، مایکروسافت تمام کوپن‌های خود را خواهد فروخت و بعد ما دیگر قادر نخواهیم بود از این قرارداد بر علیه خوشان استفاده کنیم. پس به سرعت برنامه‌های خودتان را تغییر مجوز دهید [از GPL نسخهٔ ۲ به GPL نسخهٔ ۳] که این کار بسیار مهم است. ما از تمام نگهدارنده‌های (maintainer های) نرم‌افزارهای گنو انتظار داریم که در طی چند ماه آینده این به‌روزرسانی مجوز را انجام دهند. این مهم است. اما باقی توسعه‌دهنده‌های نرم‌افزارها [ی تحت GPL] هم بهتر است که این به‌روزرسانی مجوز را انجام دهند.
+
+There will be people who will ask you not to do so. A minority of our community seems to be very angry about GPL version 3. And, when we try to probe to find out their motives, it usually turns out that they disagree with the goal of the GNU GPL, the goal of guaranteeing freedom for every user. Please, when people who hold those views ask you to leave users' freedom vulnerable, don't listen to them. Defend the user's freedom, that's important. And even if they are people who ask us not to do it, we've got to do it. We have to defend the user's freedom against these threats.
+
+زمان(9:50)
+بعضی از مردم خواهند بود که از شما می‌خواهند این کار را انجام ندهید. یک اقلیتی از جامعهٔ ما به نظر می‌رسد که از GPL نسخهٔ ۳ بسیار عصبانی هستند. و ما وقتی به دنبال انگیزهٔ آنها می‌گردیم، معمولاً به این نتیجه می‌رسیم که آنها با هدف GNU GPL مخالف هستند، هدف تضمین آزادی برای هر کاربر. وقتی کسانی که چنین دیدگاهی دارند، از شما خواستند که آزادی کاربران را بصورت آسیب‌پذیر باقی بگذارید، لطفاً به حرف آنها گوش نکنید. از آزادی کاربران دفاع کنید، که مهم است. و حتی اگر آنها مردمی هستند که از ما می‌خواهند این کار را انجام ندهیم، با باید آن را انجام دهیم. ما باید از آزادی کاربران در مقابل این تهدیدات دفاع کنیم.
+
+There are, of course, many other advantages of GPL version 3. Compatibility with the Apache license is one. Better internationalization is another. You'll also find that its termination conditions work much better in the case of a distributor of an entire GNU + Linux distribution who makes a mistake, and thus violates the GPL for thousands of programs at once. And, of course, wants to correct it. With GPL version 2, that person who made a mistake, loses the license permanently for every program from every copyright holder, and has to then go and beg forgiveness from everyone, which is not feasible. But, with GPL version 3, if they correct the mistake and the copyright holders don't complain in 60 days, then they're in the clear. So they'll only have to negotiate with those who actually did complain. Assuming of course that they are sincere people and they correct the mistake. We are still in a good position to enforce the license against anyone who intends to violate it and doesn't correct the mistake.
+
+زمان(10:41)
+البته مزیت‌های دیگری هم برای GPL نسخهٔ ۳ هست. سازگاری با مجوز Apache یکی از آن مزایاست. بین المللی‌سازی بهتر یک مزیت دیگر است. همچنین شما متوجه می‌شوید که شرطهای پایانی آن، بسیار بهتر عمل می‌کنند در مورد یک توزیع‌کنندهٔ  کل مجموعهٔ یک توزیع گنو + لینوکس، که توزیع‌کننده دچار اشتباهی شده و GPL را برای هزاران برنامه یکباره نقض کرده است. و البته می‌خواهد که اشتباهش را تصحیح کنید. با نسخهٔ ۲ مجوز GPL آن شخص که دچار اشتباه شده، مجوزش را برای همیشه از دست خواهد داد، برای هر برنامه‌ای از هر صاحب حق‌التألیف، و مجبور است که از هر کسی درخواست بخشش کند، کاری که امکان‌پذیر نیست. اما با GPL نسخهٔ ۳ ، اگر آنها اشتباه خود را اصلاح کنند، و صاحبان حق‌التألیف تا ۶۰ روز بعد شکایت نکنند، سپس آن اشتباهات پاک شده‌اند و آنها فقط باید با کسانی گفتگو کنند که واقعاً شکایت کرده‌اند. البته با این فرض که آنها مردمی صادق باشند و اشتباه خود را تصحیح کنند. ما هنوز موقعیت خوبی داریم برای اجرای مجوز بر علیه کسی که قصد دارد مجوز را زیر پا بگذارد و اشتباه خود را تصحیح نکند.
+
+So, GPL version 3 will help our community in many ways, and I urge people to upgrade to it. Thank you.
+
+زمان(12:08)
+پس GPL نسخهٔ ۳ از چندین روش به جامعهٔ ما کمک می‌کند، و من مردم را تشویق می‌کنم که برنامه‌ها را به آن ارتقاء دهند. متشکرم.
+
+Who is going to speak next?
+
+Well, I'll fill this pause by drinking some tea.
+
+نفر بعدی که می‌خواهد صحبت کند، چه کسی است؟
+خب، من با نوشیدن کمی چای، این فاصله را پر می‌کنم.
+
+"GPLv3 will help the community in many ways, and I urge people to upgrade to it."
+« GPL نسخهٔ ۳ از چندین روش به جامعه کمک می‌کند، و من مردم را تشویق می‌کنم که برنامه‌ها را به آن ارتقاء دهند.»
+
+
